@@ -1,0 +1,33 @@
+{
+  "name": "react-native-low-code",
+  "version": "0.0.1",
+  "description": "ReactNative low code rendered for figma and quant-ux",
+  "main": ".dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "bili --name index --plugin vue --vue.css false",
+    "export": "npx bili --bundle-node-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KlausSchaefers/react-native-low-code.git"
+  },
+  "keywords": [
+    "react",
+    "low-code"
+  ],
+  "author": "Klaus Schaefers",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/KlausSchaefers/react-native-low-code/issues"
+  },
+  "homepage": "https://github.com/KlausSchaefers/react-native-low-code#readme",
+  "devDependencies": {
+    "bili": "^4.8.1"
+  },
+  "dependencies": {
+  },
+  "files": [
+    "dist/*"
+  ]
+}
